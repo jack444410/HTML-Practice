@@ -9,7 +9,7 @@ input1.addEventListener("click", function(e){
 })
 
 input2.addEventListener("click", function(e){
-    if(input1.value=='請於此輸入想猜的數字...' || code == 'running'){
+    if(input1.value=='請於此輸入你欲使用的最大值...' || code == 'running'){
         return;
     } else {
         try{
